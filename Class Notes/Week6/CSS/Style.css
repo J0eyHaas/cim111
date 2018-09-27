@@ -46,7 +46,9 @@ footer{
 }
 
 nav{
-
+  width: 300px;
+  background-color: pink;
+  margin: 0 auto;
 }
 
 nav ul{
@@ -56,6 +58,7 @@ nav ul{
 nav ul li{
   list-style:none;
   display: inline-block;
+  margin-right: 10px;
 }
 
 nav ul li a{
