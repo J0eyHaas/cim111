@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body{
+  background-color: blue;    /*It only uses the command written last*/
+  background-color: #333333;   /*These next two are what is in Indesign like I used in Brand Guidelines*/
+  background-color: rgb(225,225,225);
+  font-family: 'Fjalla One', sans-serif;
+}
+h1{
+  color: red;
+  background-color: white;   /*this creates a box around the header*/
+  background-color: rgb(225,225,225);
+}
+a{
+  text-decoration:none;
+  color: red;   /*This is to change the link style*/
+}
+a:hover{    /*this lets you change the hover style over a link. This is a separate state from the normal state which is why this command doesn't override the link styles*/
+  color:green;
+  text-decoration: underline;
+}
+address{
+  color: green;
+}
+
+
+#name{     /*make sure to mark the specific tag you want with id (down below)*/
+  text-align: center;
+  background-color: white;
+}
+
+p{
+  line-height: 25px;
+  text-indent: 20px;    /*sets the spacing between lines*/
+}
+
+ul li{       /*This helps find a tag within a tag. It specifies a tag, and then if there is a tag, class or ID within that particular tag, then it applies the style to it*/
+  list-style: none;
+}
+
+#footer{
+  text-align: center;
+}
+
+#address{
+  text-align: center;
+}
+
+#box{
+  background-color: rgb(255,227,204);
+  width: 900px;
+  height: 100px;
+  padding: 10px;
+}
+
+#box2{
+  background-color: rgb(255,227,204);
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+}
+
+#box3{
+  background-color: rgb(255,227,204);
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+}
+
+.header{
+  text-decoration: underline;
+}
+
+.job{
+  color: green;
+}

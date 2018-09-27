@@ -5,69 +5,74 @@
 
       <meta name='author' content='Joey Haas'>
       <meta name='description' content='This is my html resume.'>
-      <style>
-        /* CSS comment (this only works here) */
-        body{
-          background-color: blue;    /*It only uses the command written last*/
-          background-color: #333333;   /*These next two are what is in Indesign like I used in Brand Guidelines*/
-          background-color: rgb(225,225,225);
-          font-family:sans-serif;
-        }
-        h1{
-          color: red;
-          background-color: white;   /*this creates a box around the header*/
-        }
-      </style>
+
+      <link rel='stylesheet' href='CSS/Style.css'>
+
+
   </head>
 
   <body>
+    <header>
     <img src="Images/IMG_0607.jpg" width="200">
     <br>
-    <h1>Joey Haas</h1>
 
-    <address>
+      <h1 id="name">Joey Haas</h1>
+    </header>
+    <main>
+    <section>
+    <address id="address">
       1353 West Blue Hill Ave.<br>
       Coral Gables, FL 33146<br>
       <br>
-
+    </section>
+    <section>
     <h3>Contact Information</h3>
       <address>
         jhh26@miami.edu<br>
         (303)437-6580
       <br><br>
+    </section>
+    <section>
 
-    <h2>About Me</h2>
+    <h2 class="header">About Me</h2>
+      <div id="box">
       <p>I am currently a senior at the University of Miami studying Electronic Media and Music Business. Along with my passion for journalism, I love to use design to complment the editorial aspects of media in order to create work that draws the reader into the page. I love challenging myself by trying new things. My eagerness to learn and strong work ethic is infectious in a team setting.</p>
+      </div>
     <br><br>
+  </section>
+  <section>
 
-    <h2>Work Experience</h2>
-      <p><em>Herbert Wellness Center:</em><strong> Marketing Assistant</strong></p>
+    <h2 class="header">Work Experience</h2>
+      <p><em>Herbert Wellness Center:</em><strong class="job"> Marketing Assistant</strong></p>
         <ul>
           <li>Designing marketing materials like flyers and brochures, organizing and planning social media posts, and brainstorming promotional events</li>
         </ul>
         <br>
-      <p><em><a href="https://healingwaters.org">Healing Waters International:</a></em><strong> Graphic Design Intern</strong></p>
+      <p><em><a href="https://healingwaters.org">Healing Waters International:</a></em><strong class="job"> Graphic Design Intern</strong></p>
         <ul>
           <li>Designing printed as well as online collateral such as brand guidelines, brochures, posters, thank you notes, infographics, etc.</li>
         </ul>
         <br>
-      <p><em><a href="https://eightthousandmiles.com">Eight Thousand Miles:</a></em><strong> Remote Design Intern</strong></p>
+      <p><em><a href="https://eightthousandmiles.com">Eight Thousand Miles:</a></em><strong class="job"> Remote Design Intern</strong></p>
         <ul>
           <li>Designing logo options for the company’s new brand; and discussing and planning the desired style for the company’s aesthetic in terms of social media and website</li>
         </ul>
         <br>
-      <p><em>University of Miami IT:</em><strong> User Assistant</strong></p>
+      <p><em>University of Miami IT:</em><strong class="job"> User Assistant</strong></p>
         <ul>
           <li>Keeping the computer lab organized by filling printers with paper and fixing equipment when needed; and assisting students with any questions they might have about the computers or printers</li>
         </ul>
         <br>
-      <p><em>Kumon:</em><strong> Afterschool Math and Reading Tutoring</strong></p>
+      <p><em>Kumon:</em><strong class="job"> Afterschool Math and Reading Tutoring</strong></p>
         <ul>
           <li>Helping kids aged 3-15 work through Kumon assignments, and working on logistical preparations for tutoring sessions</li>
         </ul>
         <br><br>
+      </section>
+      <section>
 
-    <h2>Skills</h2>
+    <h2 class="header">Skills</h2>
+    <div id="box2">
       <ul>
         <li>Time Management</li>
         <li>Creative</li>
@@ -75,9 +80,13 @@
         <li>Communication</li>
         <li>Team Player</li>
       </ul>
+    </div>
         <br><br>
+      </section>
+      <aside>
 
-    <h2>Interests</h2>
+    <h2 class="header">Interests</h2>
+    <div id="box3">
       <ul>
         <li>EDM Music</li>
         <li>Dancing</li>
@@ -86,11 +95,14 @@
         <li>Traveling</li>
         <li>Trying new food</li>
       </ul>
+    </div>
       <br><br>
+    </aside>
+    <section>
 
-    <h2>References</h2>
+    <h2 class="header">References</h2>
     <!-- Figure out how to fix alignment on references table -->
-      <table> 
+      <table>
         <tr>
           <th>Name</th>
           <th>Email</th>
@@ -107,6 +119,15 @@
           <td>Logan Borgmann</td>
           <td>logan.borgmann@argusmanagers.com</td>
         </tr>
+      </table>
+      </section>
+      </main>
+      <br>
+      <br>
+
+      <footer>
+        <p id="footer"> This information is copyrighted by Joey Haas</p>
+      </footer>
 
   </body>
 
