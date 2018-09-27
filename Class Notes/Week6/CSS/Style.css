@@ -12,5 +12,58 @@
   background-color: pink;
   width:130px;
   height: 130px;
-  padding: 10px;
+  padding: 10px; /*You can also just do padding on the individual sides*/
+  border-width: 5px 10px 5px 10px; /*This helps specific each side without using the border-top, border-left, etc. */
+  border-style: dashed;
+  border-color: blue;
+  border: solid blue 10px; /*You can combine all the options into one attribute*/
+  margin: 50px; /*you can specify sides as well*/
+  margin: 0 auto; /*THIS IS HOW TO CENTER STUFF. To do this with images, you have to put the image inside a box and then center the box */
+}
+
+header{
+  background-color: orange;
+  width:900px;
+  margin: 0 auto;
+  height: 200px;
+  margin-top: -20px;
+}
+
+main{
+  background-color: green;
+  width:900px;
+  margin: 0 auto;
+  height: auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color: yellow;
+  width:900px;
+  margin: 0 auto;
+  height: 100px;
+  margin-top: -15px;
+}
+
+nav{
+
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style:none;
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none; /*We undid the underline here since we are taking this attribute off of the a tag style */
+  color: black;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: red;
 }

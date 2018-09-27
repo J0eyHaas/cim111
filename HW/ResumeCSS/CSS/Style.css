@@ -8,9 +8,8 @@ body{
 }
 h1{
   color: red;
-  background-color: white;   /*this creates a box around the header*/
-  background-color: rgb(225,225,225);
 }
+
 a{
   text-decoration:none;
   color: red;   /*This is to change the link style*/
@@ -26,7 +25,6 @@ address{
 
 #name{     /*make sure to mark the specific tag you want with id (down below)*/
   text-align: center;
-  background-color: white;
 }
 
 p{
@@ -67,10 +65,30 @@ ul li{       /*This helps find a tag within a tag. It specifies a tag, and then 
   padding: 5px;
 }
 
+#imageBox{
+  width: 200px;
+  margin: 0 auto;
+}
+
 .header{
   text-decoration: underline;
 }
 
 .job{
   color: green;
+}
+
+header{
+  width:930px;
+  margin: 0 auto;
+}
+
+main{
+  width:930px;
+  margin: 0 auto;
+}
+
+footer{
+  width:930px;
+  margin: 0 auto;
 }
