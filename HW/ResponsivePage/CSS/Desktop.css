@@ -1,0 +1,182 @@
+nav{
+  width: 300px;
+  margin: 0 auto;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style:none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: darkolivegreen;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: rgb(220, 31, 38);
+}
+
+h1{
+  text-align: center;
+  color: darksalmon;
+}
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 col2 col3";
+  grid-template-rows: 1fr;
+  grid-template-columns: 33% 33% 33%;
+}
+
+#col1{
+  grid-area: col1;
+  height: 200px;
+  background-image: url('../images/NeonLights.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+#col2{
+  grid-area: col2;
+  height: 200px;
+  background-image: url('../images/grunge.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#col3{
+  grid-area: col3;
+  height: 200px;
+  background-image: url('../images/Broken_face.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+}
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col4 col5 col6";
+  grid-template-rows: 1fr;
+  grid-template-columns: 33% 33% 33%;
+  margin-top:10px;
+}
+
+#col4{
+  grid-area:col4;
+  height: 200px;
+  background-image: url('../images/yellow_grafitti.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+#col5{
+  grid-area:col5;
+  height: 200px;
+  background-image: url('../images/Color_blindness.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#col6{
+  grid-area:col6;
+  height: 200px;
+  background-image: url('../images/wheel.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left:10px;
+}
+
+#grid3{
+  display: grid;
+  grid-template-areas: "col7 col8 col9";
+  grid-template-rows: 1fr;
+  grid-template-columns: 33% 33% 33%;
+  margin-top:10px;
+}
+
+#col7{
+  grid-area:col7;
+  height: 200px;
+  background-image: url('../images/black_and_white.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right:10px;
+}
+#col8{
+  grid-area:col8;
+  height: 200px;
+  background-image: url('../images/circle_wall.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#col9{
+  grid-area:col9;
+  height: 200px;
+  background-image: url('../images/850.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left:10px;
+}
+
+#grid4{
+  display: grid;
+  grid-template-areas: "col10 col11";
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 50%;
+  margin-top:10px;
+}
+
+#col10{
+  grid-area:col10;
+  background-color: darksalmon;
+  height: 165px;
+}
+#col11{
+  grid-area:col11;
+  background-color: darksalmon;
+  height: 165px;
+}
+
+header{
+  width:90%;
+  margin: 0 auto;
+}
+
+main{
+  width:90%;
+  margin: 0 auto;
+}
+
+footer{
+  width:100%;
+  margin-top: 10px;
+  margin: 0 auto;
+  height: 165px;
+  text-align: center;
+}
+
+h3{
+  color: darkolivegreen;
+}
+
+h2{
+  color: rgb(220, 31, 38);
+}

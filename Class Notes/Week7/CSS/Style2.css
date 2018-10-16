@@ -1,0 +1,97 @@
+#changeText{
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.backgroundChange{
+  background-color: yellow;
+}
+
+#container1{
+  width: 700px;
+  height:auto;
+  background-color: cyan;
+  margin: 0 auto;
+}
+
+#box{
+  background-color: pink;
+  width:130px;
+  height: 130px;
+  padding: 10px;
+  border: solid red 10px;
+  margin: 0 auto;
+  display:inline-block;
+}
+
+#box2{
+  background-color: pink;
+  width: 410px;
+  height: 400px;
+  padding: 10px;
+  display:inline-block;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+header{
+  background-color: orange;
+  width:900px;
+  margin: 0 auto;
+  height: 200px;
+  margin-top: -20px;
+}
+
+main{
+  background-color: green;
+  width:900px;
+  margin: 0 auto;
+  height: auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color: yellow;
+  width:900px;
+  margin: 0 auto;
+  height: 100px;
+  margin-top: -15px;
+}
+
+nav{
+  width: 300px;
+  background-color: pink;
+  margin: 0 auto;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style:none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a{
+  text-decoration: none; /*We undid the underline here since we are taking this attribute off of the a tag style */
+  color: black;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+
+.columns{
+  width: 180px;
+  height: 400px;
+  background-color: yellow;
+  display:inline-block;
+  margin-right: 15px;
+  /*You can also change the size of headers, containers and boxes by using percentages*/
+
+}
