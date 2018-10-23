@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Yanone+Kaffeesatz');
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
+.columns{
+  width: 100%;
+}
+
 nav{
   width: 300px;
   margin: 0 auto;
