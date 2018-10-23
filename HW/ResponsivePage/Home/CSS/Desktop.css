@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
 nav{
   width: 300px;
   margin: 0 auto;
 }
 
 nav ul{
-
+margin-left: -40px;
 }
 
 nav ul li{
@@ -27,6 +30,10 @@ nav ul li a:hover{
 h1{
   text-align: center;
   color: darksalmon;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -5px;
+  margin-bottom: -2px;
 }
 
 #grid1{
@@ -148,16 +155,16 @@ h1{
 #col10{
   grid-area:col10;
   background-color: darksalmon;
-  height: 165px;
+  height: 175px;
 }
 #col11{
   grid-area:col11;
   background-color: darksalmon;
-  height: 165px;
+  height: 175px;
 }
 
 header{
-  width:60%;
+  width:65%;
   margin: 0 auto;
   text-align: center;
 }
@@ -171,7 +178,7 @@ footer{
   width:100%;
   margin-top: 10px;
   margin: 0 auto;
-  height: 165px;
+  height: 175px;
   text-align: center;
 }
 
@@ -181,4 +188,12 @@ h3{
 
 h2{
   color: rgb(220, 31, 38);
+}
+
+p{
+  font-family: 'News Cycle', sans-serif;
+}
+
+body{
+  background-color: rgb(225, 225, 225);
 }

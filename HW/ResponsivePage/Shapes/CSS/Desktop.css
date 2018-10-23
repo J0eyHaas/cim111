@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
+nav{
+  width: 300px;
+  margin: 0 auto;
+}
+
+nav ul{
+margin-left: -40px;
+}
+
+nav ul li{
+  list-style:none;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: darkolivegreen;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: rgb(220, 31, 38);
+}
+
+h1{
+  text-align: center;
+  color: darksalmon;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -5px;
+  margin-bottom: -2px;
+}
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 50%;
+}
+
+#col1{
+  grid-area: col1;
+  height: 300px;
+  background-image: url('../images/Color_blindness_copy.jpg');
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#col2{
+  grid-area: col2;
+  height: 300px;
+  background-size: 400px;
+  background-position: center;
+}
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col3 col4";
+  grid-template-rows: 1fr;
+  grid-template-columns: 66% 33%;
+  margin-top:10px;
+}
+
+#col3{
+  grid-area:col3;
+  height: 400px;
+  background-image: url('../images/Opener_screenshot.png');
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+#col4{
+  grid-area:col4;
+  height: 400px;
+  background-image: url('../images/last_page_screenshot.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#grid3{
+  display: grid;
+  grid-template-areas: "col6 col7";
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 50%;
+  margin-top:10px;
+}
+
+#col6{
+  grid-area:col6;
+  background-color: darksalmon;
+  height: 175px;
+}
+#col7{
+  grid-area:col7;
+  background-color: darksalmon;
+  height: 175px;
+}
+
+header{
+  width:65%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main{
+  width:90%;
+  margin: 0 auto;
+}
+
+footer{
+  width:100%;
+  margin-top: 30px;
+  margin: 0 auto;
+  height: 175px;
+  text-align: center;
+}
+
+h3{
+  color: darkolivegreen;
+}
+
+h2{
+  color: rgb(220, 31, 38);
+}
+
+p{
+  font-family: 'News Cycle', sans-serif;
+}
+
+body{
+  background-color: rgb(225, 225, 225);
+}

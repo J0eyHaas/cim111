@@ -1,0 +1,55 @@
+@import "desktop.css";
+
+.cols{
+  display: run-in;
+  width: 100%;
+}
+
+nav{
+  width: 300px;
+  margin: 0 auto;
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 10px;
+  display: flex;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: darkolivegreen;
+  font-size: 20px;
+}
+
+main{
+  height: auto;
+}
+
+header{
+  height: auto;
+}
+
+#col2{
+  grid-area: col2;
+  height: 300px;
+  background-size: 400px;
+  background-position: center;
+  height: auto;
+  display: flex;
+}
+
+#col1{
+  grid-area: col1;
+  height: auto;
+}
+
+#col3{
+  grid-area:col3;
+  height: auto;
+}
+
+#col4{
+  grid-area:col4;
+  height: auto;
+}

@@ -13,10 +13,19 @@ nav{
 nav ul li{
   list-style: none;
   margin-right: 10px;
+  display: flex;
 }
 
 nav ul li a{
   text-decoration: none;
   color: darkolivegreen;
   font-size: 20px;
+}
+
+main{
+  height: auto;
+}
+
+header{
+  height: auto;
 }
