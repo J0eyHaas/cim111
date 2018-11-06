@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>How to Design a Magazine Spread</title>
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Oswald|Yanone+Kaffeesatz');
+      .box{
+        width:100px;
+        height: 100px;
+        background-color: green;
+      }
+
+      header{
+        width:80%;
+        margin: 0 auto;
+        text-align: center;
+        background-color: lightcoral;
+        padding-left: : 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      main{
+        width: 60%
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      h1{
+        font-family: 'Oswald', sans-serif;
+      }
+
+      h2{
+        font-family: 'Oswald', sans-serif;
+      }
+
+      h3{
+        color: lightcoral;
+      }
+
+      #grid1{
+        display: grid;
+        align-content: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+
+      #grid2{
+        display: grid;
+        align-content: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+
+      #grid3{
+        display: grid;
+        align-content: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+
+      #grid4{
+        display: grid;
+        align-content: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+
+      #grid5{
+        display: grid;
+        align-content: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+    <h1 id="changeText">How to Design a Magazine Spread</h1>
+    <p>Do you have the creative talent for graphic design but don't know where to start? Here is a simple step-by-step tutorial on how to design a basic two-page magazine spread, keeping in mind spacing, typography, and color. Good luck!</p>
+    </header>
+    <main>
+      <div id="Download">
+    <h2 id="info">Here are the InDesign download instructions:</h2>
+    <div id="recepticle"></div>
+    </div>
+
+    <section id="grid1">
+      <div id="col1">
+        <h3><strong>Step 1 - Setting Up</strong></h3>
+        <p> Open up InDesign and create a 8.5x11 spread with 1 inch margins. You can change the size of the document at any point, but this is the standard size for starting out. InDesign will automatically ask you about document set up when you first open the application.</p>
+      </div>
+      <div id="col2"></div>
+    </section>
+
+
+        <img id="image1" src="Images/Create_New.jpg" width="100">
+        <img id="image2" src="Images/New_Spread.jpg" width="100">
+        <div id="imageRecepticle"></div>
+
+        <section id="grid2">
+          <div id="col3">
+            <h3><strong>Step 2 - The Headline</strong></h3>
+            <p>Now that you've got the set up all done, start by being bold with the headline. You can always dress things down later on, but for now you want a headline that grabs the reader's attention. Mess around with fonts, sizing, and spacing to create something that will stand out.</p>
+          </div>
+          <div id="col4"></div>
+        </section>
+
+        <img id="image3" src="Images/Headline.jpg" width="100">
+        <div id="imageRecepticle2"></div>
+
+        <section id="grid3">
+          <div id="col5">
+            <h3><strong>Step 3 - Images</strong></h3>
+            <p>Add in strong images that tell a story. You need one "center of visual impact" or CVI on a page so decide if you'd like the image to be the first thing a reader sees and go for it. Down below, I wanted the image to be big enough that it draws the reader there first. Use images in different sizes and orientations to balance out the white space and eventually the text when we add that in later.</p>
+          </div>
+          <div id="col6"></div>
+        </section>
+
+        <img id="image4" src="Images/Music_Images.jpg" width="100">
+        <div id="imageRecepticle3"></div>
+
+        <section id="grid4">
+          <div id="col7">
+            <h3><strong>Step 4 - Text</strong></h3>
+            <p>Now that you've got some visual impact, add in some copy. I always stick to the widths of the columns laid out on the page. You want to make sure your text isn't hyphenated and is around a size 9pt. so that it is legible for a reader.</p>
+          </div>
+          <div id="col8"></div>
+        </section>
+
+        <img id="image5" src="Images/Text.jpg" width="100">
+        <div id="imageRecepticle4"></div>
+
+        <section id="grid5">
+          <div id="col9">
+            <h3><strong>Step 5 - Extra Design Elements</strong></h3>
+            <p>At this point, your spread is looking great! Now, what you want to do is spice the page up by changing colors, adding shapes, and making the page a little more interesting. Maybe add a design element that ties into the image, or even an element that adds intrigue. This is the hardest step in the design process because less is more so try not to add design elements for no reason. Here, I have added sound-looking bars because the story is about music, and a few extra black lines to tie in the headline. Now, you're done!</p>
+          </div>
+          <div id="col10"></div>
+        </section>
+
+        <img id="image6" src="Images/Final_Design.jpg" width="100">
+        <div id="imageRecepticle5"></div>
+
+
+
+
+
+        <!-- Relative -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- Absolute Remote -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+          //Write a comment
+          //Start of script
+          $(document).ready(function(){
+              //All code should be placed below
+              $(".box").hide();
+              $("body").css("background-color", "wheat");
+              $("h1").css("color", "black");
+              $("p").css("color", "black");
+              $("#changeText").css("font-size", "40px");
+              $("#changeText").html("How to Design a Magazine Spread");
+              $("#changeText").click(function(){
+                $("body").css("background-color", "yellow");
+              $("h3").css("color", "white");
+              });//end of change text click
+
+                $("#info").mouseenter(function(){
+                  $("#recepticle").html("Go to Adobe.com, create an account, and download the Indesign application to your computer dock. It is a pink box icon with Id written inside.");
+                  $("#Download").css("background-color", "transparent", "bold");
+                });
+
+                $("#info").mouseleave(function(){
+                  $("#recepticle").html("");
+                  $("#Download").css("background-color", "transparent");
+                });
+
+                $("#image1").click(function(){
+                  $("#imageRecepticle").html('<img src="Images/Create_New.jpg" width="500">');
+                });
+
+                $("#image2").click(function(){
+                  $("#imageRecepticle").html('<img src="Images/New_Spread.jpg" width="500">');
+                });
+
+                $("#image3").click(function(){
+                  $("#imageRecepticle2").html('<img src="Images/Headline.jpg" width="500">');
+                });
+
+                $("#image4").click(function(){
+                  $("#imageRecepticle3").html('<img src="Images/Music_Images.jpg" width="500">');
+                });
+
+                $("#image5").click(function(){
+                  $("#imageRecepticle4").html('<img src="Images/Text.jpg" width="500">');
+                });
+
+                $("#image6").click(function(){
+                  $("#imageRecepticle5").html('<img src="Images/Final_Design.jpg" width="500">');
+                });
+
+                $("#hide").click(function(){
+                  $(".box").hide();
+                });
+
+                $("#show").click(function(){
+                  $(".box").show();
+                });
+
+                $("#toggle").click(function(){
+                  $(".box").toggle(1000);
+                });
+            });//end of document ready
+
+    </script>
+
+    </main>
+
+    <footer>
+    </footer>
+
+  </body>
+
+
+</html>

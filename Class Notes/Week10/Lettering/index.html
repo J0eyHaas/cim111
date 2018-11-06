@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>Lettering</title>
+
+    <style>
+      .char1{
+        color: red;
+      }
+      .char2{
+        color: green;
+      }
+      .char3{
+        color: blue;
+      }
+      .char4{
+        color: purple;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div id="letters">Elephant</div>
+    <p id="wordSplit">I knwo what I am doing!></p>
+    <p id= "sentence"> I am </br>
+      broken<
+
+    <script src="Javascript/jquery-3.3.1.min.js"></script>
+    <script src="Javascript/jquery.letter.js"></script>
+
+    <script>
+      $("document").ready(function(){
+        $("#letters").lettering();
+        $(".char1").css("color", "red");
+        $("wordSplit").lettering("words");
+
+      });
+
+    </script>
+
+  </body>
+
+
+
+</html>
