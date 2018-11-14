@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Vietnam: A Traveler's Dream</title>
+    <link rel="stylesheet" src="CSS/tiltedpage-scroll.css.html"/>
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Oswald|Yanone+Kaffeesatz');
+
+    h1{
+      text-align: center;
+       font-family: 'Oswald', sans-serif;
+    }
+
+    p{
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+    }
+
+    #col1{
+      width: 100px;
+      margin: 0 auto;
+    }
+    #col2{
+      width: 100px;
+      margin: 0 auto;
+    }
+    #col3{
+      width: 100px;
+      margin: 0 auto;
+    }
+    #col4{
+      width: 100px;
+      margin: 0 auto;
+    }
+    #col5{
+      width: 100px;
+      margin: 0 auto;
+    }
+
+    header{
+      width: 600px;
+    }
+
+    </style>
+
+
+  </head>
+
+  <body>
+    <header>
+      <h1 id="changeText">Vietnam: A Traveler's Dream</h1>
+      <p>The world is a beautiful place, of course we all know that. If you're looking for beauty that is unlike anything you've seen before, Vietnam is the perfect place to go. It's full of breathtaking landscapes, exciting hustle and bustle in the cities, and people with centuries of rich history to share.</p>
+<br>
+
+    </header>
+    <main>
+      <div class="main">
+        <section class="page1">
+          <div id="col1">
+            <img src="Images/Stair-grass.jpg">
+          </div>
+        </section>
+        <section class="page2">
+          <div id="col2">
+            <img src="Images/water.jpg">
+          </div>
+        </section>
+        <section class="page3">
+          <div id="col3">
+            <img src="Images/temple.jpg">
+          </div>
+        </section>
+        <section class="page4">
+          <div id="col4">
+            <img src="Images/hand_bridge.jpg">
+          </div>
+        </section>
+        <section class="last-page">
+          <div id="col5">
+            <img src="Images/Ho_chi_minh.jpg">
+          </div>
+        </section>
+
+      </div>
+
+      <script src="https://ajax.googleapiscom/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+      <script src="JS/jquery.tiltedpage-scroll.js"></script>
+
+      <script>
+      $(document).ready(function(){
+
+          $("body").css("background-color", "lightskyblue");
+          $("h1").css("color", "black");
+          $("p").css("color", "black");
+          $("#changeText").css("font-size", "40px");
+          $("#changeText").html("Vietnam: A Traveler's Dream");
+          $("#changeText").click(function(){
+            $("body").css("background-color", "yellow");
+
+          $(".main").tiltedpage_scroll({
+            sectionContainer: "> section";
+            angle: 50;
+            opacity: true;
+            scale: true;
+            outAnimation: true;
+          });
+
+            });
+
+      </script>
+
+    </main>
+    <footer>
+
+
+    </footer>
+
+  </body>
+
+
+</html>
