@@ -20,28 +20,33 @@
     }
 
     #col1{
-      width: 100px;
+      width: 400px;
       margin: 0 auto;
     }
     #col2{
-      width: 100px;
+      width: 400px;
       margin: 0 auto;
     }
     #col3{
-      width: 100px;
+      width: 400px;
       margin: 0 auto;
     }
     #col4{
-      width: 100px;
+      width: 400px;
       margin: 0 auto;
     }
     #col5{
-      width: 100px;
+      width: 400px;
       margin: 0 auto;
     }
 
     header{
       width: 600px;
+      margin: 0 auto;
+    }
+
+    .images{
+      width: 400px;
     }
 
     </style>
@@ -60,33 +65,38 @@
       <div class="main">
         <section class="page1">
           <div id="col1">
-            <img src="Images/Stair-grass.jpg">
+            <img class="images" src="Images/Stair-grass.jpg">
+            <p>Sapa, Vietnam has views that will capture your attention for hours. Its refreshing romance in the rows of rice fields is the perfect spot to take you away from any stress and soak up the true beauty of what Vietnam has to offer. Tourists should be sure to hike through Sapa to its highest point in June to enjoy the changing colors from green to yellow.</p>
           </div>
         </section>
         <section class="page2">
           <div id="col2">
-            <img src="Images/water.jpg">
+            <img class="images" src="Images/water.jpg">
+            <p>The Mekong Delta is one of the biggest rivers in Vietnam and is the perfect place to see the excitement of floating markets and get to know locals through food and drifting boats. The delta not only is the main source fish but also is the main transportation around southeast Vietnam.</p>
           </div>
         </section>
         <section class="page3">
           <div id="col3">
-            <img src="Images/temple.jpg">
+            <img class="images" src="Images/temple.jpg">
+            <p>Hanoi is a city full of rich history and close-to-crumbling temples that have been around for centuries. The temples are a huge part of Vietnamese culture and represent a unity and art that is expressed even in the architecture of each building.</p>
           </div>
         </section>
         <section class="page4">
           <div id="col4">
-            <img src="Images/hand_bridge.jpg">
+            <img class="images" src="Images/hand_bridge.jpg">
+            <p>This brand new bridge built just outside of Da Nang, Vietnam is as beautiful as it sounds. Known as the Golden Bridge, it overlooks surrounding countryside just a mere 1500m above sea level. This $2 billion investment has drawn the attention of locals and tourists from all around.</p>
           </div>
         </section>
         <section class="last-page">
           <div id="col5">
-            <img src="Images/Ho_chi_minh.jpg">
+            <img class="images" src="Images/Ho_chi_minh.jpg">
+            <p>This busy city is one of the largest in all of Vietnam. Old and modern values collide with a mix of upscale restaurants, designer shops, and sky scrapers with ancient pagodas, wondering monks, and colonial era landmarks. This is a must-see for any tourist.</p>
           </div>
         </section>
 
       </div>
 
-      <script src="https://ajax.googleapiscom/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+      <script src="JS/jquery-3.3.1.min.js"></script>
       <script src="JS/jquery.tiltedpage-scroll.js"></script>
 
       <script>
@@ -97,15 +107,14 @@
           $("p").css("color", "black");
           $("#changeText").css("font-size", "40px");
           $("#changeText").html("Vietnam: A Traveler's Dream");
-          $("#changeText").click(function(){
-            $("body").css("background-color", "yellow");
+
 
           $(".main").tiltedpage_scroll({
-            sectionContainer: "> section";
-            angle: 50;
-            opacity: true;
-            scale: true;
-            outAnimation: true;
+            sectionContainer: "> section",
+            angle: 50,
+            opacity: true,
+            scale: true,
+            outAnimation: true
           });
 
             });
