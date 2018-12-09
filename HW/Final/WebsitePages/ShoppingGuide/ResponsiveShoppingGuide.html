@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Shopping Guide</title>
+    <link rel="stylesheet" src="CSS/tiltedpage-scroll.css.html"/>
+    <link rel="stylesheet" href="CSS/Desktop.css" media="only screen and (min-width:600px)">
+    <link rel="stylesheet" href="CSS/Mobile.css" media="only screen and (max-width: 600px)">
+
+
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../MyCloset/ResponsiveMyCloset.html">My Closet</a></li>
+          <li><a href="ResponsiveShoppingGuide.html">Shopping Guide</a></li>
+          <li><a href="../StyleInspiration/ResponsiveStyleInspiration.html">Style Inspiration</a></li>
+          <li><a href="../TrendAlert/ResponsiveTrendAlert.html">Trend Alert</a></li>
+          <li><a href="../ClothingJunkyApp/ResponsiveApp.html">Clothing Junky App</a></li>
+        </ul>
+      </nav>
+      <h1>Guide to Shopping</h1>
+      <p>While shopping can be overwhelming, if you do some research before you step foot in a store, you're already off to the right start. Here are some basic things to keep in mind as you hop from one place to the next. Depending on what you're looking for, you might need to change up where you search and which stores to look in. I hope this blog helps you with your shopping search!</p>
+<br>
+
+    </header>
+    <main>
+      <div class="main">
+        <section class="page1">
+          <div id="col1">
+            <img class="images" src="Images/DollsKill.jpg">
+            <p>Dolls Kill<br>
+              If you are looking for edgey and more rave-type clothes, I would definitely check out Dolls Kill. They've got fishnets in every color, race car driver shirts, and everything in between. Dolls Kills usually has great deals around the summer time since that's when a lot of music festivals are. Dolls Kill is perfect for somone not afraid of color or showing some skin. <br>
+            </p>
+          </div>
+        </section>
+
+        <section class="page2">
+          <div id="col2">
+            <img class="images" src="Images/NastyGal.jpg">
+            <p>Nasty Gal<br>
+              Nasty Gal is where cutsie girl-next-door types should shop. It's got the best summer dresses for all occasions and two piece sets to die for. I love shopping here when I'm trying to find something trendy with a sweet-looking aesthetic. Although Nasty Gal can be a little more on the expensive end, you're paying for better quality clothes that will last, so that's just something to keep in mind.<br>
+          </p>
+          </div>
+        </section>
+
+        <section class="page3">
+          <div id="col3">
+            <img class="images" src="Images/PublicDesire.jpg">
+            <p>Public Desire<br>
+              Looking for new shoes? Public Desire is definitely the number one place I'd suggest to check out for new kicks. They've got every shoe you can think of and are constantly out with new designs. I love shopping here for their great deals and affordable price. Every shoe is pretty true to size, but my experience with Public Desire is to wait a couple days before you buy what's in your shopping cart cause you will definitely want to add another pair when you see the news stuff they're always putting out. Might as well save on shipping!<br>
+            </p>
+          </div>
+        </section>
+
+        <section class="last-page">
+          <div id="col5">
+            <img class="images" src="Images/TopShop.jpg">
+            <p>TopShop<br>
+              Now, while TopShop locations can be hard to come by, I find that it's a gold mine for clothes when you do. One of my all-time favorite things to buy here is their jeans because they have every width and length combination you can think of and the jeans actually LAST through many washes, which is rare. TopShop also has a wide selection of mens clothing so that you're older brother can stay on trend too. It's a great place for everyone to find something that will fit their style.<br>
+          </p>
+          </div>
+        </section>
+
+      </div>
+      <script src="JS/jquery-3.3.1.min.js"></script>
+      <script src="JS/jquery.tiltedpage-scroll.js"></script>
+
+      <script>
+      $(document).ready(function(){
+
+          $("body").css("background-color", "black");
+          $("p").css("color", "white");
+          $("#changeText").css("font-size", "40px");
+
+
+          $(".main").tiltedpage_scroll({
+            sectionContainer: "> section",
+            angle: 50,
+            opacity: true,
+            scale: true,
+            outAnimation: true
+          });
+
+            });
+
+      </script>
+
+    </main>
+    <footer>
+      <section id="grid1">
+        <div id="col6">
+          <h3>Contact Information</h3>
+          <p><em>joeyhaas814@gmail.com
+          <br>
+            303-437-6580
+          <br>
+            Coral Gables, FL
+          <br>
+            33146</em></p>
+
+        </div>
+
+        <div id="col7">
+          <h3>Social Media</h3>
+          <div>
+            <p><strong>Instagram</strong>
+            <br>
+            <em>@hotcupofjoey</em>
+            <br>
+            <strong>Portfolio</strong>
+            <br>
+            <em>joeyhaas.designco.com</em></p>
+          </div>
+
+          </div>
+      </section>
+
+    </footer>
+
+  </body>
+
+
+</html>

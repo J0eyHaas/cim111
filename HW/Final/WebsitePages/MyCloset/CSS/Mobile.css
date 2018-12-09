@@ -1,0 +1,69 @@
+@import "desktop.css";
+
+.cols{
+  display: block;
+  width: 100%;
+}
+
+nav{
+  width: 300px;
+  margin: 0 auto;
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 10px;
+  display: flex;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(247, 247, 125);
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+main{
+  height: auto;
+}
+
+header{
+  height: auto;
+}
+
+h1{
+  text-align: center;
+  color: rgb(52, 223, 177);
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -5px;
+  margin-bottom: -2px;
+}
+
+footer{
+  width:100%;
+  margin-top: 30px;
+  margin: 0 auto;
+  height: 175px;
+  text-align: center;
+}
+
+h3{
+  color: rgb(247, 247, 125);
+}
+
+h2{
+  color: rgb(220, 31, 38);
+}
+
+p{
+  font-family: 'News Cycle', sans-serif;
+  color: white;
+}
+
+body{
+  background-color: black;
+}

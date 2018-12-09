@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
+nav{
+  width: 450px;
+  margin: 0 auto;
+}
+
+nav ul{
+margin-left: -40px;
+}
+
+nav ul li{
+  list-style:none;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(247, 247, 125);
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+h1{
+  text-align: center;
+  color: rgb(52, 223, 177);
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -5px;
+  margin-bottom: -2px;
+}
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 col2 col3";
+  grid-template-rows: 1fr;
+  grid-template-columns: 33% 33% 33%;
+}
+
+#col1{
+  grid-area: col1;
+  height: 300px;
+  background-image: url('../images/Outfit1.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(90deg);
+  margin-right: -20px;
+}
+
+#col2{
+  grid-area: col2;
+  height: 300px;
+  background-image: url('../images/Outfit2.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(90deg);
+}
+
+#col3{
+  grid-area: col3;
+  height: 300px;
+  background-image: url('../images/Outfit3.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(90deg);
+  margin-left: -20px;
+}
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col4 col5 col6";
+  grid-template-rows: 1fr;
+  grid-template-columns: 33% 33% 33%;
+  margin-top:20px;
+}
+
+#col4{
+  grid-area:col4;
+  height: 300px;
+  background-image: url('../images/Outfit4.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: -20px;
+  transform: rotate(90deg);
+}
+
+#col5{
+  grid-area:col5;
+  height: 300px;
+  background-image: url('../images/Outfit5.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(90deg);
+}
+
+#col6{
+  grid-area:col6;
+  height: 300px;
+  background-image: url('../images/Outfit6.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left:-20px;
+  transform: rotate(90deg);
+}
+
+#grid3{
+  display: grid;
+  grid-template-areas: "col7 col8 col9";
+  grid-template-rows: 1fr;
+  grid-template-columns: 33% 33% 33%;
+  margin-top:20px;
+}
+
+#col7{
+  grid-area:col7;
+  height: 300px;
+  background-image: url('../images/Outfit7.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right:-20px;
+  transform: rotate(90deg);
+}
+
+#col8{
+  grid-area:col8;
+  height: 300px;
+  background-image: url('../images/Outfit8.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(90deg);
+}
+
+#col9{
+  grid-area:col9;
+  height: 300px;
+  background-image: url('../images/Outfit9.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left:-20px;
+  transform: rotate(90deg);
+}
+
+#grid4{
+  display: grid;
+  grid-template-areas: "col10 col11";
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 50%;
+  margin-top:30px;
+}
+
+#col10{
+  grid-area:col10;
+  background-color: rgb(52, 223, 177);
+  height: 175px;
+}
+#col11{
+  grid-area:col11;
+  background-color: rgb(52, 223, 177);
+  height: 175px;
+}
+
+header{
+  width:65%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main{
+  width:90%;
+  margin: 0 auto;
+}
+
+footer{
+  width:100%;
+  margin-top: 10px;
+  margin: 0 auto;
+  height: 175px;
+  text-align: center;
+}
+
+h3{
+  color: rgb(247, 247, 125);
+}
+
+h2{
+  color: rgb(220, 31, 38);
+}
+
+p{
+  font-family: 'News Cycle', sans-serif;
+  color: white;
+}
+
+body{
+  background-color: black;
+}

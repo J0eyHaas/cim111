@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
+nav{
+  width: 450px;
+  margin: 0 auto;
+}
+
+nav ul{
+margin-left: -40px;
+}
+
+nav ul li{
+  list-style:none;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(247, 247, 125);
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+h1{
+  text-align: center;
+  color: rgb(52, 223, 177);
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -5px;
+  margin-bottom: -2px;
+}
+
+p{
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  color: white;
+}
+
+#col1{
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#col2{
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+#col3{
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#col5{
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.images{
+  width: 200px;
+}
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col6 col7";
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 50%;
+  margin-top: 25px;
+}
+
+#col6{
+  grid-area:col6;
+  background-color: rgb(52, 223, 177);
+  height: 175px;
+}
+#col7{
+  grid-area:col7;
+  background-color: rgb(52, 223, 177);
+  height: 175px;
+}
+
+header{
+  width:65%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main{
+  width:90%;
+  margin: 0 auto;
+}
+
+footer{
+  width:100%;
+  margin-top: 30px;
+  margin: 0 auto;
+  height: 175px;
+  text-align: center;
+}
+
+h3{
+  color: rgb(247, 247, 125);
+}
+
+h2{
+  color: rgb(220, 31, 38);
+}
+
+body{
+  background-color: black;
+}
